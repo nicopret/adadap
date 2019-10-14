@@ -1,0 +1,1 @@
+geth --identity "LocalBaseNode" --rpc --rpcport 8081 --rpccorsdomain "*" --datadir D:/ether-local/nodes/test/base/data --port 30304 --nodiscover --rpcapi db,eth,net,web3,personal --networkid 1999 --maxpeers 0 console

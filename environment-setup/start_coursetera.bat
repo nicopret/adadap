@@ -1,0 +1,1 @@
+geth --identity “LocalTestNode” --rpc --rpcport 8080 --rpccorsdomain "http://localhost:8000" --datadir ./coursetera/data/ --port 30303 --nodiscover --rpcapi db,eth,net,web3,personal --networkid 1999 --maxpeers 0 console

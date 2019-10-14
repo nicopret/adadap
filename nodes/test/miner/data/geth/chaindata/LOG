@@ -1,0 +1,32 @@
+=============== Jun 1, 2018 (SAST) ===============
+22:16:35.947407 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+22:16:35.951376 db@open opening
+22:16:35.955343 version@stat F·[] S·0B[] Sc·[]
+22:16:35.957824 db@janitor F·2 G·0
+22:16:35.957824 db@open done T·6.4483ms
+22:17:56.361860 db@close closing
+22:17:56.362853 db@close done T·992.6µs
+=============== Jun 1, 2018 (SAST) ===============
+22:56:48.325459 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+22:56:48.326451 version@stat F·[] S·0B[] Sc·[]
+22:56:48.326947 db@open opening
+22:56:48.326947 journal@recovery F·1
+22:56:48.330419 journal@recovery recovering @1
+22:56:48.405315 memdb@flush created L0@2 N·21261 S·1MiB "\x00\x00\xae..\x82\x88\x11,v10184":"\xff\xfc\x94..\xa5\x05\xa1,v10049"
+22:56:48.408787 version@stat F·[1] S·1MiB[1MiB] Sc·[0.25]
+22:56:48.413252 db@janitor F·3 G·0
+22:56:48.413747 db@open done T·86.7994ms
+23:05:57.107010 db@close closing
+23:05:57.108001 db@close done T·990.2µs
+=============== Jun 1, 2018 (SAST) ===============
+23:06:03.584270 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+23:06:03.584765 version@stat F·[1] S·1MiB[1MiB] Sc·[0.25]
+23:06:03.584765 db@open opening
+23:06:03.585262 journal@recovery F·1
+23:06:03.588237 journal@recovery recovering @3
+23:06:03.591213 memdb@flush created L0@5 N·3 S·481B "Blo..ion,v21264":"eth..ˏ\xa3,v21263"
+23:06:03.595182 version@stat F·[2] S·1MiB[1MiB] Sc·[0.50]
+23:06:03.600141 db@janitor F·4 G·0
+23:06:03.600141 db@open done T·15.3759ms
+23:30:05.787828 db@close closing
+23:30:05.788818 db@close done T·990.9µs

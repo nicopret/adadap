@@ -1,0 +1,13 @@
+INFO [05-20|15:14:27] Maximum peer count                       ETH=0 LES=0 total=0
+DEBUG[05-20|15:14:27] FS scan times                            list=0s set=0s diff=0s
+TRACE[05-20|15:14:27] Handled keystore changes                 time=1.9993ms
+INFO [05-20|15:14:27] Allocated cache and file handles         database=D:\\ether-local\\environment-setup\\coursetera\\data\\geth\\chaindata cache=16 handles=16
+INFO [05-20|15:14:27] Writing custom genesis block 
+DEBUG[05-20|15:14:27] Trie cache stats after commit            misses=0 unloads=0
+INFO [05-20|15:14:27] Persisted trie from memory database      nodes=6 size=1.21kB time=0s       gcnodes=0 gcsize=0.00B gctime=0s livenodes=1 livesize=0.00B
+INFO [05-20|15:14:27] Successfully wrote genesis state         database=chaindata                                                             hash=44265b…c9a633
+INFO [05-20|15:14:27] Allocated cache and file handles         database=D:\\ether-local\\environment-setup\\coursetera\\data\\geth\\lightchaindata cache=16 handles=16
+INFO [05-20|15:14:27] Writing custom genesis block 
+DEBUG[05-20|15:14:27] Trie cache stats after commit            misses=0 unloads=0
+INFO [05-20|15:14:27] Persisted trie from memory database      nodes=6 size=1.21kB time=0s       gcnodes=0 gcsize=0.00B gctime=0s livenodes=1 livesize=0.00B
+INFO [05-20|15:14:27] Successfully wrote genesis state         database=lightchaindata                                                             hash=44265b…c9a633

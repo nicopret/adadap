@@ -1,0 +1,1 @@
+Mist --rpc http://localhost:8080 --rpccorsdomain="*" --swarmurl “null”

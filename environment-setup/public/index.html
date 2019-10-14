@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <title>Ethereum dev environment</title>
+    </head>
+    <body>
+        <h1>Ethereum dev environment</h1>
+
+        <form>
+            Directory: <input name="dir"><br/>
+            Accounts: <input name="accounts"><br/>
+            <button type="submit">create</button>
+        </form>
+
+        <div id="result"></div>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script>
+
+            $('form').on('submit', event => {
+                event.preventDefault();
+                $.post('/create', {
+                    dir: $('form input[name=dir]').val(),
+                    count: $('form input[name=accounts]').val()
+                }).done(data => {
+                    $('#result').append('<br>' + data);
+                });
+            });
+        </script>
+    </body>
+</html>

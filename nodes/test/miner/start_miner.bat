@@ -1,0 +1,1 @@
+geth --identity "LocalMinerNode" --rpc --rpcport 8080 --rpccorsdomain "*" --datadir D:/ether-local/nodes/test/miner/data --port 30303 --nodiscover --rpcapi admin,db,eth,net,web3,personal --networkid 1999 --maxpeers 0 console
